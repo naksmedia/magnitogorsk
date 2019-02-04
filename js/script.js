@@ -218,7 +218,7 @@ window.onload = function () {
   });
 
 
-  
+
 };
 
   // require(["popper"], function(popper) {
