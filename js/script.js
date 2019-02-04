@@ -113,11 +113,10 @@ window.onload = function () {
     $.fn.uploader = function (options) {
       var settings = $.extend({
         MessageAreaText: "Вы не выбрали файл.",
-        MessageAreaTextWithFiles: "Загруженные файлы:",
-        DefaultErrorMessage: "Unable to open this file.",
-        BadTypeErrorMessage: "We cannot accept this file type at this time.",
-        acceptedFileTypes: ['pdf', 'jpg', 'gif', 'jpeg', 'png', 'xps', 'doc', 'docx',
-          'txt',]
+        // MessageAreaTextWithFiles: "Загруженные файлы:",
+        DefaultErrorMessage: "Невозможно открыть этот файл.",
+        BadTypeErrorMessage: "Не верный формат файла!",
+        acceptedFileTypes: ['pdf', 'jpg', 'doc', 'docx']
       }, options);
 
       var uploadId = 1;
@@ -214,10 +213,12 @@ window.onload = function () {
   //init 
   $(document).ready(function () {
     $('.fileUploader').uploader({
-      MessageAreaText: "Вы не выбрали файл, выберите файл."
+      MessageAreaText: "Прикрепить файлы"
     });
   });
 
+
+  
 };
 
   // require(["popper"], function(popper) {

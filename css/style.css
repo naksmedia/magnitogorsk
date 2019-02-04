@@ -971,6 +971,12 @@ body {
   color: white;
   background-color: #ff9999;
   cursor: pointer; }
+  .removal-button:hover {
+    background-color: #fc8181;
+    transition: 0.2s; }
+  .removal-button:active {
+    background-color: #f76464;
+    transition: 0.2s; }
   .removal-button::before {
     content: '\2716'; }
   .removal-button:focus {

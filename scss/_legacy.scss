@@ -1242,7 +1242,6 @@ $file-uploader__error: rgb(214, 93, 56);
 
 //style
 .file-uploader {
-
     border-radius: 3px;
     color: $file-uploader__black;
 }
@@ -1277,6 +1276,16 @@ $file-uploader__error: rgb(214, 93, 56);
     color: rgb(255, 255, 255);
     background-color: rgb(255, 153, 153);
 
+    &:hover {
+        background-color: rgb(252, 129, 129);
+        transition: 0.2s;
+    }
+
+    &:active {
+        background-color: rgb(247, 100, 100);
+        transition: 0.2s;
+    }
+
     cursor: pointer;
 
     &::before {
@@ -1303,9 +1312,7 @@ $file-uploader__error: rgb(214, 93, 56);
     max-width: 400px;
     height: auto;
 
-    & input[type=submit] {
-        
-    }
+    & input[type=submit] {}
 }
 
 .file-list__name {
@@ -1329,13 +1336,13 @@ $file-uploader__error: rgb(214, 93, 56);
 }
 
 input[type=file] {
-    border: none;   
-   
+    border: none;
+
 }
 
 
 .file-chooser__input {
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .file-uploader__submit-button {
@@ -1345,11 +1352,13 @@ input[type=file] {
     color: white;
     background-color: #8fb6f5;
     padding: 10px 25px;
-    font-size: 16px;  
+    font-size: 16px;
     cursor: pointer;
+
     & input[type=submit] {
         border: none;
     }
+
     &:focus {
         box-shadow: none;
         outline: none;
