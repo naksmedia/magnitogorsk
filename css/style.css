@@ -889,7 +889,7 @@ body {
   font-weight: 500;
   color: #0066ac; }
 
-.vazno__list__text {
+.inside__text {
   font-size: 16px;
   margin-bottom: 5px;
   margin-bottom: 10px; }
@@ -1047,6 +1047,27 @@ input[type=file] {
 *::before,
 *::after {
   box-sizing: border-box; }
+
+.link__inside__pages {
+  font-size: 18px;
+  margin-bottom: 5px; }
+
+.grafik__work {
+  font-size: 16px;
+  font-weight: 400; }
+  .grafik__work p {
+    margin-bottom: 8px; }
+
+.grafik__red {
+  font-size: 16px;
+  font-weight: 400;
+  color: red; }
+
+.sider__bar__center__page {
+  position: sticky;
+  top: 4rem;
+  z-index: 1000;
+  height: calc(75vh); }
 
 .menu__background {
   background-color: #373c41;
