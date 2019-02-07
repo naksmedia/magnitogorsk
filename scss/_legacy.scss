@@ -468,8 +468,10 @@ body {
 
 .box__news__text {
     color: #000;
-    font-size: 14px;
-    line-height: 1.61;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 0;
 }
 
 
@@ -502,6 +504,9 @@ body {
     margin-bottom: 50px;
     background-color: #fff;
     padding: 25px;
+    a {
+        text-decoration: none;
+    }
 }
 
 .naks__text__box {
@@ -549,7 +554,6 @@ body {
     margin-bottom: 50px;
     background-color: #fff;
     padding: 25px;
-
     a {
         text-decoration: none;
     }
@@ -1434,4 +1438,28 @@ input[type=file] {
     top: 4rem;
     z-index: 1000;
     height: calc(75vh);
+}
+
+// Contact page
+
+.contact__header__pages{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact__number{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.adres__ac{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ya__map {
+    margin-bottom: 25px;    
 }
