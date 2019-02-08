@@ -443,7 +443,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     color: #0066ac;
-    font-weight: 350;   
+    font-weight: 450;   
 }
 
 .block__news a {
@@ -1661,4 +1661,45 @@ margin-bottom: 25px;
     font-size: 18px;
     font-weight: 300;
     margin-top: 25px;
+}
+
+.line__otstup__inside__pages__news {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.link__read__news__inside {
+    margin-top: 15px;
+     margin-bottom: 25px;
+     text-align: right;
+}
+
+.link__read__news__inside a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0066ac;
+    font-weight: 450;   
+}
+
+
+// Нумерация
+.page-link{
+    color: #2e3e60;
+    font-size: 14px;
+    border-radius: 0px;
+    
+}
+
+.page-item {
+border-radius: 0px;
+margin-top: 25px;
+}
+
+.page-link:hover{
+    transition: 0.2s;
+}
+
+.page-link:focus {
+    outline: none;
+    box-shadow: none;
 }
