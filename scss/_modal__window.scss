@@ -146,7 +146,7 @@ input ~ label[for="soglasie"] {
  }
 
 .button__to__send_zayavka__formmodal{
-background-color: rgb(41, 61, 80);
+    background-color: #3eb5f1;
 border: none;
 color: #fff;
 font-size: 16px;
@@ -161,11 +161,11 @@ padding: 12px 45px;
 
 
 .button__to__send_zayavka__formmodal:hover {
-	background-color: rgb(54, 76, 97);   
+	background-color: #47bbf5;
 }
 
 .button__to__send_zayavka__formmodal:active {
-	background-color: rgb(32, 50, 66);
+	background-color: #35a9e4;
 }
 
 /* Выбор несколько из списка */

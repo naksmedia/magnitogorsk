@@ -50,6 +50,24 @@
 
 }
 
+.dropdown-item{
+    padding: 12px;
+}
+
+.dropdown-menu {
+    margin-top: 22px;
+    color: #ecf5fe;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+    border: none;
+    border-radius: 0px;
+    text-transform: initial;   
+    padding: 12px;
+       @media screen and (max-width: 320px) {
+        font-size: 12px;
+        color: #fff;
+    }
+}
+
 .dropdown-item a{
     margin-bottom: 1px solid #000;
 }
@@ -58,9 +76,6 @@
     margin-right: 35px;
     color: #ffffff;
     font-weight: 350;
-    
-    
-
     @media screen and (max-width: 992px) {
         padding: 0px 0px 15px;
         font-weight: 200;
@@ -83,18 +98,6 @@
     color: rgb(255, 255, 255);
 }
 
-.dropdown-menu {
-    margin-top: 22px;
-    color: #ecf5fe;
-    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
-    border: none;
-    border-radius: 0px;
-    text-transform: initial;   
-       @media screen and (max-width: 320px) {
-        font-size: 12px;
-        color: #fff;
-    }
-}
 
 .navbar-dark .navbar-toggler {
     background-color: transparent;
